@@ -1,0 +1,14 @@
+.header-nav{
+	.logo{
+		a h1{
+			color: $naranjo;
+			span{
+				color: $naranjo-claro;
+			}
+		}
+	}
+}
+
+ul li{
+	list-style-type: none;
+}

@@ -1,11 +1,4 @@
-.header-nav .logo a h1 {
-  color: #E75C38; }
-  .header-nav .logo a h1 span {
-    color: #E9AF9B; }
-
-ul li {
-  list-style-type: none; }
-
+@charset "UTF-8";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.

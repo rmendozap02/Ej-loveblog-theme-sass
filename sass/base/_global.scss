@@ -1,0 +1,138 @@
+/*BARRA DE NAVEGATION*/
+.logo{
+	h1{
+		color: $naranjo;
+	}
+	span{
+		color: $naranjo-claro;
+	}
+}
+
+nav{
+	#nav{
+		list-style-type: none;
+	}
+	li{
+		margin: 30px 10px;
+		display: inline-block;
+		float: right;
+		a{
+			color: $gris;
+			text-decoration: none;
+			&:hover{
+				color: $naranjo;
+				text-decoration: none;
+			}
+		}
+		
+	}	
+}
+/*SLIDER*/
+#slider{
+	.rosa{
+		display: inline-block;
+		float: left;
+		margin-top: 0;
+		margin-left: 30px;
+	}
+	.banner{
+		width: 100%;
+	}
+	.rosa1{
+		display: inline-block;
+		float: right;
+		position: relative;
+		margin-bottom: 100px;
+		margin-right: 30px;
+	}
+}
+/*PARTE CHECK OFFER FOLLOW*/
+#check{
+	padding-top: 50px;
+	text-aling: left;
+	h2{
+		color:$naranjo;
+		font-size: 20px;
+	}
+	h1{
+		img{
+			width: 100%;
+			}	
+	}
+	span{
+		background-color: $naranjo;
+		padding: 10px;
+		a{
+			color: white;
+			text-decoration: none;
+			&:hover{
+				text-decoration: none;
+				color: $gris;
+			}
+		}
+	}
+}
+/*FROM BLOG*/
+#from-blog{
+	padding-top: 50px;
+		.cuadro{
+			img{
+				width: 100%;
+			}
+			.recta{
+				border-left: 1px solid $gris;
+				border-right: 1px solid $gris;
+				border-bottom: 1px solid $gris;
+				padding: 10px;
+				h1{
+					font-size: 10px;
+				}
+			}
+		}
+}
+/*RECENT WORKS*/
+#recent-works{
+	padding-top: 50px;
+		.cuadro{
+			img{
+				width: 100%;
+			}
+			.recta{
+				border-left: 1px solid $gris;
+				border-right: 1px solid $gris;
+				border-bottom: 1px solid $gris;
+				padding: 10px;
+				h1{
+					font-size: 10px;
+				}
+			}
+		}
+}
+/*FOOTER*/
+#footer{
+	padding-top: 50px;
+		.rosa{
+			display: inline-block;
+			float: left;
+			margin-top: 0;
+			margin-left: 30px;
+		}
+		.footer{
+			background-color: $naranjo;
+			display: inline-block;
+			margin-top: 0;
+			h2{
+				color: white;
+			}
+			p{
+				color: white;
+			}
+		}
+		.rosa1{
+			display: inline-block;
+			float: right;
+			position: relative;
+			margin-bottom: 100px;
+			margin-right: 30px;
+		}
+}

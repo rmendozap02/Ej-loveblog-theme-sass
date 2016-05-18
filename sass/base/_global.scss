@@ -11,11 +11,15 @@
 nav{
 	#nav{
 		list-style-type: none;
+		float: right;
 	}
 	li{
 		margin: 30px 10px;
 		display: inline-block;
-		float: right;
+		float: left;
+		.active{
+			color: $naranjo;
+		}
 		a{
 			color: $gris;
 			text-decoration: none;
@@ -23,8 +27,7 @@ nav{
 				color: $naranjo;
 				text-decoration: none;
 			}
-		}
-		
+		}	
 	}	
 }
 /*SLIDER*/
@@ -75,64 +78,139 @@ nav{
 /*FROM BLOG*/
 #from-blog{
 	padding-top: 50px;
-		.cuadro{
-			img{
-				width: 100%;
-			}
-			.recta{
-				border-left: 1px solid $gris;
-				border-right: 1px solid $gris;
-				border-bottom: 1px solid $gris;
-				padding: 10px;
-				h1{
-					font-size: 10px;
-				}
+	.cuadro{
+		img{
+			width: 100%;
+		}
+		.recta{
+			border-left: 1px solid $gris;
+			border-right: 1px solid $gris;
+			border-bottom: 1px solid $gris;
+			padding: 10px;
+			h1{
+				font-size: 10px;
 			}
 		}
+	}
 }
 /*RECENT WORKS*/
 #recent-works{
 	padding-top: 50px;
-		.cuadro{
-			img{
-				width: 100%;
-			}
-			.recta{
-				border-left: 1px solid $gris;
-				border-right: 1px solid $gris;
-				border-bottom: 1px solid $gris;
-				padding: 10px;
-				h1{
-					font-size: 10px;
-				}
+	.cuadro{
+		img{
+			width: 100%;
+		}
+		.recta{
+			border-left: 1px solid $gris;
+			border-right: 1px solid $gris;
+			border-bottom: 1px solid $gris;
+			padding: 10px;
+			h1{
+				font-size: 10px;
 			}
 		}
+	}
 }
 /*FOOTER*/
 #footer{
 	padding-top: 50px;
-		.rosa{
-			display: inline-block;
-			float: left;
-			margin-top: 0;
-			margin-left: 30px;
+	.rosa{
+		display: inline-block;
+		float: left;
+		margin-top: 0;
+		margin-left: 30px;
+		width: 50px;
+		height: 290px;
+	}
+	.footer{
+		width: 100%;
+		background-color: $naranjo;
+		display: inline-block;
+		margin-top: 0;
+		h2{
+			color: white;
+			margin-left: 15px;
 		}
-		.footer{
-			background-color: $naranjo;
-			display: inline-block;
-			margin-top: 0;
-			h2{
-				color: white;
-			}
-			p{
-				color: white;
-			}
+		p{
+			color: white;
+			margin-left: 15px;
 		}
-		.rosa1{
-			display: inline-block;
+	}
+	.rosa1{
+		display: inline-block;
+		float: right;
+		position: relative;
+		margin-bottom: 100px;
+		margin-right: 30px;
+		width: 50px;
+		height: 290px;
+	}
+}
+////////////////ABOUTUS/////////////////
+#aboutus{
+	.rosa{
+		display: inline-block;
+		float: left;
+		margin-top: 0;
+		margin-left: 30px;
+	}
+	.rosa1{
+		display: inline-block;
+		float: right;
+		position: relative;
+		margin-bottom: 100px;
+		margin-right: 30px;
+	}
+	.back-naranjo{
+		background-color: $naranjo;
+		width: 100%;
+		height:50px;
+		h1{
+			color: white;
+			margin-left: 15px;
+			margin-top: 0;
+		}
+	}
+}
+#imabout{
+	margin-top: 0;
+	.im{
+		.hombre{
+			width: 100%;
+			border: 1px solid $gris;
+			padding: 5px;
+		}
+	}
+	.naranjito{
+		.ql{
 			float: right;
-			position: relative;
-			margin-bottom: 100px;
-			margin-right: 30px;
+			background-color: $naranjo;
+			width: 10px;
+			height: 100px;
 		}
+		p{
+			color: $naranjo;
+		}
+	}
+	.text-nara{
+		.text{
+			margin-top: 0;
+			color: $naranjo;
+			font-size: 20px;
+			padding-bottom: 10px;
+		}
+		ul{
+			style-type: none;
+			li{
+				list-style-type: none;
+				margin-left: -40px;
+			}
+		}
+		img{
+			width: 90px;
+			height: 90px;
+			margin: 5px;
+			border: 1px solid red;
+		}
+	}
 }
